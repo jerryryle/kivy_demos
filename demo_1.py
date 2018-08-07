@@ -57,9 +57,10 @@ class DemoApp(App):
         return self._layout
 
     def on_start(self):
-        """Event handler for the `on_start` event which is fired after
-        initialization (after build() has been called) but before the
-        application has started running.
+        """Event handler for the `on_start` event which is fired after initialization (after build() has been called)
+        but before the application has started running. We're going to use this event to schedule our timer that will
+        modify the UI. We could have scheduled this in the 'build()' method above, but it's more proper to keep that
+        method limited to code that constructs the UI and put other startup code in this 'on_start()' method instead.
         """
 
         '''Schedule a Kivy timer to call our _update() method every 1 seconds.'''
