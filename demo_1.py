@@ -94,4 +94,8 @@ class DemoApp(App):
 
 
 if __name__ == "__main__":
-    DemoApp().run()
+    '''Construct an instance of the DemoApp class.'''
+    demo_app = DemoApp()
+
+    '''Start the instance running.'''
+    demo_app.run()
