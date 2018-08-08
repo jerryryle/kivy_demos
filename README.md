@@ -14,3 +14,6 @@ You'll notice that the first label ('Text:') moves around as the second label ('
 
 This demo shows how to control how much space a widget consumes in the layout by using size hints and how to add another row to the Grid Layout. It also demonstrates how to show/hide labels by changing their opacity and how to update a label's text.
  
+## demo_3.py
+
+This demo shows how to use a worker thread to do processing outside of the main UI thread so that the UI stays responsive. It also demonstrates Kivy's button widgets and how to enable/disable widgets. 
